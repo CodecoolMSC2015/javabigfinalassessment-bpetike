@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Search in person's skillset</title>
+</head>
+<body>
+<form action="SearchServlet" method="post">
+		<table>
+				<tr>
+					<td>Search criteria (please separate the skills with comma)</td>
+					<td><input type="text" name="searchCriteria"/></td>
+				</tr>
+				<tr>
+					<td>Search type</td> 
+					<td><input type="radio" name="searchType" value="OPTIONAL" checked/>Optional<br>
+					<input type="radio" name="searchType" value="MANDATORY" />Mandatory</td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="Search" /></td>
+				</tr>
+			</table>
+	</form>
+</body>
+</html>
